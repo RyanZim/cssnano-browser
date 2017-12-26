@@ -1,8 +1,15 @@
 # cssnano-browser
 
 This module allows you to use [cssnano](http://cssnano.co/) in the browser. It
-will simply run cssnano with the default preset, and doesn't read any config
-files. It's a CommonJS module, you'll need to use browserify.
+will simply run cssnano with the default preset (except `svgo` is disabled, see
+note below), and doesn't read any config files.
+
+**NOTE:** [`postcss-svgo`](https://www.npmjs.com/package/postcss-svgo) is
+enabled by default in cssnano; but it's disabled here due to browser
+incompatibility. If somebody wants to figure out what's needed to get
+`postcss-svgo` running in the browser, they're welcome to contribute!
+
+`cssnano-browser` is a CommonJS module, you'll need to use browserify.
 
 Built for use in https://github.com/RyanZim/postcss-repl
 

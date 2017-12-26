@@ -1,5 +1,6 @@
 const postcss = require('postcss');
-const { plugins } = require('cssnano-preset-default')();
+const preset = require('cssnano-preset-default');
+const { plugins } = preset({ svgo: true });
 
 function initializePlugin (plugin, css, result) {
   if (Array.isArray(plugin)) {
