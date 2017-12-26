@@ -1,0 +1,32 @@
+{
+  "name": "cssnano-browser",
+  "version": "0.0.0",
+  "description": "cssnano, bundled for the browser",
+  "main": "index.js",
+  "scripts": {
+    "test": "semistandard && ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanzim/cssnano-browser.git"
+  },
+  "keywords": [
+    "cssnano",
+    "minifier",
+    "browser"
+  ],
+  "author": "Ryan Zimmerman <opensrc@ryanzim.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ryanzim/cssnano-browser/issues"
+  },
+  "homepage": "https://github.com/ryanzim/cssnano-browser#readme",
+  "dependencies": {
+    "cssnano-preset-default": "4.0.0-rc.2",
+    "postcss": "^6.0.14"
+  },
+  "devDependencies": {
+    "ava": "^0.24.0",
+    "semistandard": "^11.0.0"
+  }
+}
