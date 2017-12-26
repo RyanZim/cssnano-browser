@@ -1,5 +1,7 @@
 # cssnano-browser
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/RyanZim/cssnano-browser.svg)](https://greenkeeper.io/)
+
 This module allows you to use [cssnano](http://cssnano.co/) in the browser. It
 will simply run cssnano with the default preset (except `svgo` is disabled, see
 note below), and doesn't read any config files.
