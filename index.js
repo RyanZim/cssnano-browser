@@ -6,19 +6,19 @@ function initializePlugin (plugin, css, result) {
   if (Array.isArray(plugin)) {
     const [processor, opts] = plugin;
     if (
-            typeof opts === 'undefined' ||
+      typeof opts === 'undefined' ||
             (typeof opts === 'object' && !opts.exclude)
-        ) {
+    ) {
       return Promise.resolve(
-                processor(opts)(css, result)
-            );
+        processor(opts)(css, result)
+      );
     }
   } else {
     return Promise.resolve(
-            plugin()(css, result)
-        );
+      plugin()(css, result)
+    );
   }
-    // Handle excluded plugins
+  // Handle excluded plugins
   return Promise.resolve();
 }
 
