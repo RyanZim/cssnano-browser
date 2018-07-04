@@ -1,6 +1,6 @@
 {
   "name": "cssnano-browser",
-  "version": "4.0.0-rc.2",
+  "version": "4.0.0",
   "description": "cssnano, bundled for the browser",
   "main": "index.js",
   "scripts": {
