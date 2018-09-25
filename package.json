@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/ryanzim/cssnano-browser#readme",
   "dependencies": {
-    "cssnano-preset-default": "4.0.0",
+    "cssnano-preset-default": "4.0.1",
     "postcss": "^6.0.23"
   },
   "devDependencies": {
