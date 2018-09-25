@@ -22,8 +22,8 @@
   },
   "homepage": "https://github.com/ryanzim/cssnano-browser#readme",
   "dependencies": {
-    "cssnano-preset-default": "4.0.0",
-    "postcss": "^6.0.23"
+    "cssnano-preset-default": "4.0.1",
+    "postcss": "^7.0.3"
   },
   "devDependencies": {
     "ava": "^0.25.0",
