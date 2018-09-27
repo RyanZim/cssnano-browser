@@ -1,5 +1,6 @@
 # cssnano-browser
 
+[![Build Status](https://travis-ci.org/RyanZim/cssnano-browser.svg?branch=master)](https://travis-ci.org/RyanZim/cssnano-browser)
 [![Greenkeeper badge](https://badges.greenkeeper.io/RyanZim/cssnano-browser.svg)](https://greenkeeper.io/)
 
 This module allows you to use [cssnano](http://cssnano.co/) in the browser. It
