@@ -27,6 +27,6 @@
   },
   "devDependencies": {
     "ava": "^1.0.1",
-    "semistandard": "^13.0.0"
+    "semistandard": "^14.0.0"
   }
 }
